@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #ffecdd;
+  --primary-color-dark: #101010;
+  --secondary-color1: #fe4511;
+  --secondary-color2: #ff630c;
+  --secondary-color3: #fd7126;
+  --text-dark: #101010;
+  --text-light: #ffecdd;
+  --text-hover: #ffecddaf;
+  font-size: 20px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+#dot_works{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  width: 10rem;
+  height: auto;
+  border: 3px solid black;
+}
+
+#dot{
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #fe4511;
+  border-radius: 100vw;
+}
